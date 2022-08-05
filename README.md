@@ -18,3 +18,10 @@ file description
 8. Write a class User that inherits from BaseModel
 9. Write all those classes that inherit from BaseModel
 10. Update FileStorage to manage correctly serialization and deserialization of all our new classes: Place, State, City, Amenity and Review
+11. Update your command interpreter (console.py) to retrieve all instances of a class by using: <class name>.all()
+12. Update your command interpreter (console.py) to retrieve the number of instances of a class: <class name>.count()
+13. Update your command interpreter (console.py) to retrieve an instance based on its ID: <class name>.show(<id>)
+14. Update your command interpreter (console.py) to destroy an instance based on his ID: <class name>.destroy(<id>)
+15. Update your command interpreter (console.py) to update an instance based on his ID: <class name>.update(<id>,<attribute name>, <attribute value>)
+16. Update your command interpreter (console.py) to update an instance based on his ID with a dictionary
+17. Write all unittests for console.py, all features!
